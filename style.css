@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* SCORE PART  */
+.score {
+    /* border: 1px solid red; */
+    width: 250px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 560px;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+
+/* MAIN CONTAINER FLEX  */
+.main-container {
+    display: grid;
+    grid-template-columns: 350px 100px 400px;
+    gap: 100px;
+    margin-top: 30px;
+    margin-left: 155px;
+    /* align-items: center; */
+    color: white;
+    text-align: center;
+}
+
+.main-container h1 {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.box {
+    border: 2px solid #ffc434;
+    width: 400px;
+    height: 400px;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.computer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.middle-part{
+    margin-left: 30px;
+}
+
+
+
+/* OPTIONS FOR PLAYING  */
+
+.hand-image {
+    /* border: 1px solid #ffc434; */
+    height: 80px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* FOOTER PART  */
+
+.winner {
+    /* border: 1px solid red; */
+    width: 1300px;
+    /* margin-left: 550px; */
+    text-align: center;
+    color: white;
+    display: none;
+}
+
+.winner h1{
+    font-size: 20px;
+    margin-left: 20px;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    cursor:grabbing ;
+}
+
+#pay {
+    width: 100px;
+    height: 30px;
+    background-color: #ffc434;
+    color: white;
+    text-decoration: solid;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}

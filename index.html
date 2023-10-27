@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+
+    <h1>Rock Paper Scissors</h1>
+    <div class="img">
+        <img src="game-image.png" alt="" width="400px">
+    </div>
+    <div id="play-button">
+        <img src="play-button.png" alt="play-button" width="70px" id="letsplay">
+        <h4>Play the Game</h4>
+    </div>
+    <script >
+        const play1 = document.getElementById("play-button")
+        play1.addEventListener("click",() =>{
+            window.location.href = "game.html"
+        })
+    </script>
+</body>
+
+</html>
